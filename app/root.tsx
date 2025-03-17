@@ -8,6 +8,7 @@ import {
 import type { LinksFunction } from "@remix-run/node";
 import { ThemeProvider } from "./utils/theme-context";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 import "./tailwind.css";
 
@@ -50,6 +51,7 @@ export default function App() {
         <main className="flex-grow">
           <Outlet />
         </main>
+        <Footer />
       </div>
     </ThemeProvider>
   );
