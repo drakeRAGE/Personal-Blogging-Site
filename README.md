@@ -1,6 +1,30 @@
-# Welcome to Remix!
+# My Remix Blog
 
-- 📖 [Remix docs](https://remix.run/docs)
+Welcome to my blogging platform built with Remix! This is a modern, fast, and easy-to-use blog that supports Markdown-based content creation.
+
+## Adding a New Blog Post
+
+To create a new blog post, follow these steps:
+
+1. Create a new Markdown file in the `app/content` directory with a descriptive slug name (e.g., `my-new-post.md`)
+
+2. Structure your post using this format:
+   ```markdown
+   # Your Post Title
+
+   Your first paragraph will automatically become the post excerpt.
+
+   Rest of your content goes here using Markdown formatting.
+   ```
+
+The system will automatically:
+- Generate a unique ID for the post
+- Extract the title from the H1 heading
+- Use the first paragraph as the excerpt
+- Use the current date as the post date
+- Use the filename (without .md) as the slug
+
+Your post will immediately appear on the homepage with proper styling and routing.
 
 ## Development
 
@@ -24,17 +48,18 @@ Then run the app in production mode:
 npm start
 ```
 
-Now you'll need to pick a host to deploy it to.
-
-### DIY
+### DIY Deployment
 
 If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
 
-Make sure to deploy the output of `npm run build`
-
+Make sure to deploy the output of `npm run build`:
 - `build/server`
 - `build/client`
 
-## Styling
+## Features
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+- Automatic post loading through the `getBlogPosts()` function
+- Clean and SEO-friendly URLs using post slugs
+- Consistent styling and layout
+- Markdown rendering for content
+- Responsive design with Tailwind CSS
