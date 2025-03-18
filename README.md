@@ -2,6 +2,12 @@
 
 Welcome to my blogging platform built with Remix! This is a modern, fast, and easy-to-use blog that supports Markdown-based content creation.
 
+![image](https://github.com/user-attachments/assets/9a66ca11-46d7-4666-b78f-82c4c07c2c69)
+![image](https://github.com/user-attachments/assets/0ad39b3c-7679-421b-b64b-1366b7977a34)
+![image](https://github.com/user-attachments/assets/a1c237ba-add6-4236-aea9-fc46e4d90dbf)
+![image](https://github.com/user-attachments/assets/6ba133fb-9f78-4cd2-a750-7be3462c5cc2)
+
+
 ## Adding a New Blog Post
 
 To create a new blog post, follow these steps:
