@@ -18,6 +18,13 @@ export const loader = async () => {
             date: "2025-03-17",
             slug: "server-side-rendering-with-remix",
         },
+        {
+            id: 3,
+            title: "Relationship Evaluation Model",
+            excerpt: "Learn how to build a custom relationship evaluation model using machine learning techniques",
+            date: "2025-03-19",
+            slug: "relationship-evaluation-model",
+        }
     ];
 
     return json({ posts });
