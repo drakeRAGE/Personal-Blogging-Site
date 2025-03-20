@@ -1,4 +1,4 @@
-| Relationship Evaluation Model: A Data-Driven Approach |
+# Relationship Evaluation Model: A Data-Driven Approach
 
 This article explores a sophisticated model designed to evaluate relationship health through multiple weighted factors. The model provides quantitative insights into relationship dynamics while acknowledging the complexity of human connections.
 
