@@ -24,6 +24,13 @@ export const loader = async () => {
             excerpt: "Learn how to build a custom relationship evaluation model using machine learning techniques",
             date: "2025-03-19",
             slug: "relationship-evaluation-model",
+        },
+        {
+            id: 4,
+            title: 'Engineering a Personal Expense Tracker in Remix',
+            excerpt: 'Learn how to build a personal expense tracker using Remix',
+            date: '2025-04-08',
+            slug: 'engineering-a-personal-expense-tracker',
         }
     ];
 
