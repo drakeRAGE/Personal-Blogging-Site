@@ -31,6 +31,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
       <head>
         <meta charSet="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Welcome to Drag's Blog - a personal space where I share my thoughts, experiences, and insights on technology, programming, and various other topics that interest me." />
+        <title>Drag's Blog</title>
         <Meta />
         <Links />
       </head>
