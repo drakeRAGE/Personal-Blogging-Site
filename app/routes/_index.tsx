@@ -31,6 +31,13 @@ export const loader = async () => {
             excerpt: 'Learn how to build a personal expense tracker using Remix',
             date: '2025-04-08',
             slug: 'engineering-a-personal-expense-tracker',
+        },
+        {
+            id: 5,
+            title: 'Creating YT Video Saver & Copy Collector Extensions',
+            excerpt: 'Learning how to build simple extensions for YouTube video saving and copying',
+            date: '2025-09-08',
+            slug: 'creating-extensions',
         }
     ];
 
